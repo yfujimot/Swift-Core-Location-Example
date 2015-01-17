@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92F03B131A6A3248008DB98B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F03B121A6A3248008DB98B /* AppDelegate.swift */; };
+		92F03B151A6A3248008DB98B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F03B141A6A3248008DB98B /* ViewController.swift */; };
+		92F03B181A6A3248008DB98B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F03B161A6A3248008DB98B /* Main.storyboard */; };
+		92F03B1A1A6A3248008DB98B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F03B191A6A3248008DB98B /* Images.xcassets */; };
+		92F03B1D1A6A3248008DB98B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F03B1B1A6A3248008DB98B /* LaunchScreen.xib */; };
+		92F03B291A6A3248008DB98B /* Google_Places_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F03B281A6A3248008DB98B /* Google_Places_TestTests.swift */; };
+		92F03B331A6A3326008DB98B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F03B321A6A3326008DB98B /* CoreLocation.framework */; };
+		92F03B351A6A332E008DB98B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F03B341A6A332E008DB98B /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92F03B231A6A3248008DB98B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92F03B051A6A3248008DB98B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92F03B0C1A6A3248008DB98B;
+			remoteInfo = "Google Places Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92F03B0D1A6A3248008DB98B /* Google Places Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Places Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F03B111A6A3248008DB98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F03B121A6A3248008DB98B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92F03B141A6A3248008DB98B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92F03B171A6A3248008DB98B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92F03B191A6A3248008DB98B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		92F03B1C1A6A3248008DB98B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		92F03B221A6A3248008DB98B /* Google Places TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google Places TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F03B271A6A3248008DB98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F03B281A6A3248008DB98B /* Google_Places_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_Places_TestTests.swift; sourceTree = "<group>"; };
+		92F03B321A6A3326008DB98B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		92F03B341A6A332E008DB98B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92F03B0A1A6A3248008DB98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F03B351A6A332E008DB98B /* MapKit.framework in Frameworks */,
+				92F03B331A6A3326008DB98B /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F03B1F1A6A3248008DB98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92F03B041A6A3248008DB98B = {
+			isa = PBXGroup;
+			children = (
+				92F03B341A6A332E008DB98B /* MapKit.framework */,
+				92F03B321A6A3326008DB98B /* CoreLocation.framework */,
+				92F03B0F1A6A3248008DB98B /* Google Places Test */,
+				92F03B251A6A3248008DB98B /* Google Places TestTests */,
+				92F03B0E1A6A3248008DB98B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92F03B0E1A6A3248008DB98B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92F03B0D1A6A3248008DB98B /* Google Places Test.app */,
+				92F03B221A6A3248008DB98B /* Google Places TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92F03B0F1A6A3248008DB98B /* Google Places Test */ = {
+			isa = PBXGroup;
+			children = (
+				92F03B121A6A3248008DB98B /* AppDelegate.swift */,
+				92F03B141A6A3248008DB98B /* ViewController.swift */,
+				92F03B161A6A3248008DB98B /* Main.storyboard */,
+				92F03B191A6A3248008DB98B /* Images.xcassets */,
+				92F03B1B1A6A3248008DB98B /* LaunchScreen.xib */,
+				92F03B101A6A3248008DB98B /* Supporting Files */,
+			);
+			path = "Google Places Test";
+			sourceTree = "<group>";
+		};
+		92F03B101A6A3248008DB98B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92F03B111A6A3248008DB98B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92F03B251A6A3248008DB98B /* Google Places TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				92F03B281A6A3248008DB98B /* Google_Places_TestTests.swift */,
+				92F03B261A6A3248008DB98B /* Supporting Files */,
+			);
+			path = "Google Places TestTests";
+			sourceTree = "<group>";
+		};
+		92F03B261A6A3248008DB98B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92F03B271A6A3248008DB98B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92F03B0C1A6A3248008DB98B /* Google Places Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F03B2C1A6A3248008DB98B /* Build configuration list for PBXNativeTarget "Google Places Test" */;
+			buildPhases = (
+				92F03B091A6A3248008DB98B /* Sources */,
+				92F03B0A1A6A3248008DB98B /* Frameworks */,
+				92F03B0B1A6A3248008DB98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google Places Test";
+			productName = "Google Places Test";
+			productReference = 92F03B0D1A6A3248008DB98B /* Google Places Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92F03B211A6A3248008DB98B /* Google Places TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F03B2F1A6A3248008DB98B /* Build configuration list for PBXNativeTarget "Google Places TestTests" */;
+			buildPhases = (
+				92F03B1E1A6A3248008DB98B /* Sources */,
+				92F03B1F1A6A3248008DB98B /* Frameworks */,
+				92F03B201A6A3248008DB98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92F03B241A6A3248008DB98B /* PBXTargetDependency */,
+			);
+			name = "Google Places TestTests";
+			productName = "Google Places TestTests";
+			productReference = 92F03B221A6A3248008DB98B /* Google Places TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92F03B051A6A3248008DB98B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ThinkFuji;
+				TargetAttributes = {
+					92F03B0C1A6A3248008DB98B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					92F03B211A6A3248008DB98B = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 92F03B0C1A6A3248008DB98B;
+					};
+				};
+			};
+			buildConfigurationList = 92F03B081A6A3248008DB98B /* Build configuration list for PBXProject "Google Places Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92F03B041A6A3248008DB98B;
+			productRefGroup = 92F03B0E1A6A3248008DB98B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92F03B0C1A6A3248008DB98B /* Google Places Test */,
+				92F03B211A6A3248008DB98B /* Google Places TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92F03B0B1A6A3248008DB98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F03B181A6A3248008DB98B /* Main.storyboard in Resources */,
+				92F03B1D1A6A3248008DB98B /* LaunchScreen.xib in Resources */,
+				92F03B1A1A6A3248008DB98B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F03B201A6A3248008DB98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92F03B091A6A3248008DB98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F03B151A6A3248008DB98B /* ViewController.swift in Sources */,
+				92F03B131A6A3248008DB98B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F03B1E1A6A3248008DB98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F03B291A6A3248008DB98B /* Google_Places_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92F03B241A6A3248008DB98B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92F03B0C1A6A3248008DB98B /* Google Places Test */;
+			targetProxy = 92F03B231A6A3248008DB98B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92F03B161A6A3248008DB98B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92F03B171A6A3248008DB98B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92F03B1B1A6A3248008DB98B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92F03B1C1A6A3248008DB98B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92F03B2A1A6A3248008DB98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92F03B2B1A6A3248008DB98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92F03B2D1A6A3248008DB98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Google Places Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92F03B2E1A6A3248008DB98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Google Places Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92F03B301A6A3248008DB98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Google Places TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google Places Test.app/Google Places Test";
+			};
+			name = Debug;
+		};
+		92F03B311A6A3248008DB98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Google Places TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google Places Test.app/Google Places Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92F03B081A6A3248008DB98B /* Build configuration list for PBXProject "Google Places Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F03B2A1A6A3248008DB98B /* Debug */,
+				92F03B2B1A6A3248008DB98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F03B2C1A6A3248008DB98B /* Build configuration list for PBXNativeTarget "Google Places Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F03B2D1A6A3248008DB98B /* Debug */,
+				92F03B2E1A6A3248008DB98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92F03B2F1A6A3248008DB98B /* Build configuration list for PBXNativeTarget "Google Places TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F03B301A6A3248008DB98B /* Debug */,
+				92F03B311A6A3248008DB98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92F03B051A6A3248008DB98B /* Project object */;
+}
