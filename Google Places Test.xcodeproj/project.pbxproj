@@ -17,6 +17,7 @@
 		92F03B351A6A332E008DB98B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F03B341A6A332E008DB98B /* MapKit.framework */; };
 		92F03B371A6A44EB008DB98B /* GooglePlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F03B361A6A44EB008DB98B /* GooglePlaces.swift */; };
 		92F03B391A6A46F6008DB98B /* google.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92F03B381A6A46F6008DB98B /* google.plist */; };
+		92F03B3B1A6A4CF8008DB98B /* CoordinateToCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F03B3A1A6A4CF8008DB98B /* CoordinateToCity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		92F03B341A6A332E008DB98B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		92F03B361A6A44EB008DB98B /* GooglePlaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlaces.swift; sourceTree = "<group>"; };
 		92F03B381A6A46F6008DB98B /* google.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = google.plist; sourceTree = "<group>"; };
+		92F03B3A1A6A4CF8008DB98B /* CoordinateToCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinateToCity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				92F03B361A6A44EB008DB98B /* GooglePlaces.swift */,
+				92F03B3A1A6A4CF8008DB98B /* CoordinateToCity.swift */,
 				92F03B121A6A3248008DB98B /* AppDelegate.swift */,
 				92F03B141A6A3248008DB98B /* ViewController.swift */,
 				92F03B161A6A3248008DB98B /* Main.storyboard */,
@@ -228,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92F03B151A6A3248008DB98B /* ViewController.swift in Sources */,
+				92F03B3B1A6A4CF8008DB98B /* CoordinateToCity.swift in Sources */,
 				92F03B371A6A44EB008DB98B /* GooglePlaces.swift in Sources */,
 				92F03B131A6A3248008DB98B /* AppDelegate.swift in Sources */,
 			);
